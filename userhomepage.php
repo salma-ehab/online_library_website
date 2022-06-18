@@ -69,7 +69,7 @@ $result = mysqli_query($connect,$s);
             <tr>
                 <td class="userInfo"><?php echo $rows['bookTitle'];?></td>
                 <td class="userInfo"><?php echo $rows['expectedReturnDate'];?></td>
-                <td><?php if ($rows['actualReturnDate'] =='0000-00-00'&& date("Y-m-d")>$rows['expectedReturnDate']) {echo "<label id='lateLabel'>LATE!</label>"; echo "<button id='lateButton'>Return </button>";}
+                <td><?php if ($rows['actualReturnDate'] =='0000-00-00'&& date("Y-m-d")>$rows['expectedReturnDate']) {echo "<label id='lateLabel'>LATE!</label>"; echo "<button id='lateButton' onclick='location.href=\"returnBooks.php?viewedBookTitle=".$rows['bookTitle']."\"'>Return </button>";}
                     else if ($rows['actualReturnDate'] =='0000-00-00') echo "<button id='returnButton' onclick='location.href=\"returnBooks.php?viewedBookTitle=".$rows['bookTitle']."\"'>Return </button>";?></td>                               
             </tr>
             <?php
