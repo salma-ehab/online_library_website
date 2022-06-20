@@ -5,7 +5,7 @@ The library exists here https://library-website123.herokuapp.com/
 To enter as a user: username **amira39** password **1a2mi**
 To enter as an admin: username **ali65** password **reset2**
 
- ## Importnat notes ##
+ ## Important notes ##
  
  * The password has to be no longer than 10 characters
  * The password has to be no shorter than 5 characters
