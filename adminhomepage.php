@@ -39,7 +39,7 @@ $result1 = mysqli_query($connect,$s1);
             <a href="profile.php">Profile</a>
             <a href="addBook.php">Add Books</a>
             <a href="addUser.php">Add Users</a>
-            <a href="userlist.php">Userlist</a>
+            <a href="userList.php">Userlist</a>
             <a href="bookList.php">Booklist</a>
             <a href="Login.php">Logout</a>
           </div>
