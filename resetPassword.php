@@ -17,7 +17,7 @@ if ($numEmail == 1)
 {
     $sign = "UPDATE usertable SET password='$password' WHERE email='$email'";
     mysqli_query($connect,$sign);
-    header('location:index.php');
+    header('location:Login.php');
 }
 
 else

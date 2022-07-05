@@ -60,7 +60,7 @@ $result = mysqli_query($connect,$s);
 
         <div class="navigationBar"  id="commonNavigationBar">
               <a href="adminhomepage.php">Homepage</a>
-              <a href= 'index.php'>Logout</a>
+              <a href= 'Login.php'>Logout</a>
         </div>
     </body>
     </div>

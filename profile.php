@@ -65,7 +65,7 @@ $row =  mysqli_fetch_row($result);
               </script>
               
             
-              <a href="index.php">Logout</a>
+              <a href="Login.php">Logout</a>
             </div>
 
         

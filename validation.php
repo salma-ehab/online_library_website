@@ -26,6 +26,6 @@ else if ($num == 1 && $row[6] =="admin")
 
 else
 {   echo("<script >alert('Something went wrong. Check that the username and password entered are correct')</script>");
-    echo("<script>window.location.href = 'index.php';</script>");
+    echo("<script>window.location.href = 'Login.php';</script>");
 }
 ?>

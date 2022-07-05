@@ -1,6 +1,6 @@
 function goLogIn()
 {
-    window.location.href = "index.php";
+    window.location.href = "Login.php";
 }
 
 function goAdminHomepage()

@@ -38,7 +38,7 @@ $result = mysqli_query($connect,$s);
                  <a href='userBookList.php?viewedGenre=Comics'>Comics</a>
                </div>
             </div>   
-            <a href="index.php">Logout</a>
+            <a href="Login.php">Logout</a>
           </div>
       </h1>
       

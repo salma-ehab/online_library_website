@@ -23,7 +23,7 @@ if ($numUsername == 0 && $numEmail == 0)
 {
    $sign = "insert into usertable (name,username,email,address,telephone,password,type) values ('$name','$username','$email','$address','$telephone','$password','user')";
    mysqli_query($connect,$sign);
-   header('location:index.php');
+   header('location:Login.php');
 }
 
 else if ($numUsername != 0)

@@ -76,7 +76,7 @@ $result1 = mysqli_query($connect,$s1);
 
         <div class="navigationBar"  id="commonNavigationBar">
               <a href="adminhomepage.php">Homepage</a>
-              <a href= 'index.php'>Logout</a>
+              <a href= 'Login.php'>Logout</a>
       </div>
     </body>
     </div>

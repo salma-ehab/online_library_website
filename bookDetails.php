@@ -88,7 +88,7 @@ $row1 =  mysqli_fetch_row($result1);
                     }
                 }
               </script>
-              <a href="index.php">Logout</a>
+              <a href="Login.php">Logout</a>
             </div>
     </body>
     </div>

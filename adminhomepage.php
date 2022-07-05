@@ -33,7 +33,7 @@ $result1 = mysqli_query($connect,$s1);
             <a href="addUser.php">Add Users</a>
             <a href="userlist.php">Userlist</a>
             <a href="bookList.php">Booklist</a>
-            <a href="index.php">Logout</a>
+            <a href="Login.php">Logout</a>
           </div>
       </h1>
 
